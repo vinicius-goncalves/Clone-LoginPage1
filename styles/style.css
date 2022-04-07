@@ -1,0 +1,75 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+
+body {
+    background: linear-gradient(45deg, #464DA5 0%, #7B4EA1 50%, #A84D92 100%);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    font-size: 1.5em
+}
+
+h1 {
+    font-family: 'HussarWoodtypeUltra', sans-serif;
+    padding-bottom: 50px;
+}
+
+/*IDs*/
+
+#form-box {
+    background-color: #FFF;
+    padding: 250px 100px;
+    text-align: center;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.384);
+}
+
+#login-button {
+    background-color: #C44C8A;
+}
+
+#remember {
+    text-align: left;
+    margin-left: 12px;
+    color: rgba(0, 0, 0, 0.411);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em
+}
+
+#remember-checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+#login-button {
+    padding: 10px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-color: transparent;
+    margin-top: 25px;
+}
+
+/*CLASSES*/
+
+.form-control {
+    padding: 10px;
+    position: relative;
+}
+
+.form-control input {
+    padding: 15px;
+    width: 250px;
+    text-indent: 35px;
+    font-size: .8em;
+}
+
+.form-control i {
+    position: absolute;
+    top: 25px;
+    left: 28px;
+    color: rgba(0, 0, 0, 0.425);
+    font-size: 1em;
+}

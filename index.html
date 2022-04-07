@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Hussar';
+            src: url('fonts/HussarWoodtypeSeBd.otf');
+        }
+
+        @font-face {
+            font-family: 'HussarWoodtypeUltra';
+            src: url('fonts/HussarWoodtypeUltra.otf');
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form-box">
+        <h1>LOGIN</h1>
+        <div id="form-details">
+            <form>
+                <div class="form-control">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+
+                <p id="remember"><input type="checkbox" name="remember-checkbox" id="remember-checkbox"> Remember me</p>
+                <input type="submit" value="LOGIN" id="login-button">
+
+                <div id="others-options">
+                    <p>Or login with</p>
+                    <input type="button" value="Facebook"> <input type="button" value="Google">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/866e7f0be4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
